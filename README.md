@@ -1,7 +1,7 @@
 # roboform-wordlists
 Project to generate wordlists for old roboform RNG
 
-# based on work done by Joe Grand et al.
+# Based on work done by Joe Grand et al.
     https://www.youtube.com/watch?v=o5IySpAkThg
     https://grandideastudio.com/portfolio/security/roboform-password-regeneration/
     https://grandideastudio.com/media/roboform_notes.pdf
