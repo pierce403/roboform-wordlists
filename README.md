@@ -1,7 +1,7 @@
 # roboform-wordlists
 Project to generate wordlists for the old roboform RNG.
 
-RoboForm is a password management tool, and about 10 years ago it had a bug in it that would cause the RNG to be seeded with system time. This project is an effort to generare wordlists to help people recover encrypted media from that era that might be otherwise lost, and to accureately measure the impact of this issue.
+RoboForm is a password management tool, and about 10 years ago it had a bug in it that would cause the RNG to be seeded with system time. This project is an effort to generate wordlists to help people recover encrypted media from that era that might be otherwise lost, and to accurately measure the impact of this issue.
 
 # Based on work done by Joe Grand et al.
     https://www.youtube.com/watch?v=o5IySpAkThg
