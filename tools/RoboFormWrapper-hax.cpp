@@ -2,9 +2,8 @@
 // RoboFormWrapper.cpp : This file contains the 'main' function. Program execution begins and ends there.
 // For use with RoboForm 7.9.0
 // Compiled and tested w/ Microsoft Visual Studio 2022 version 17.7.6
-// 
-// Must be run as administrator in order to properly set time in Windows
-// Ensure Windows does not automatically sync or update time while program is running
+//
+// Please ensure that the roboform.dll is in the current directory.
 //
 
 #include <stdio.h>
