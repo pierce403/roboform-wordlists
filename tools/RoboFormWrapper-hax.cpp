@@ -1,10 +1,28 @@
 //
-// RoboFormWrapper.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// RoboFormWrapper-hax.cpp : This file contains the 'main' function. Program execution begins and ends there.
 // For use with RoboForm 7.9.0
 // Compiled and tested w/ Microsoft Visual Studio 2022 version 17.7.6
 //
-// Please ensure that the roboform.dll is in the current directory.
+// To build, download the project zip file from
+// https://grandideastudio.com/portfolio/security/roboform-password-regeneration/
+// and replace RoboFormWrapper.cpp with this code.
+// Updates here: https://github.com/pierce403/roboform-wordlists
 //
+//  Differences between this code and the original:
+//  * about 1000x faster
+//  * doesn't need admin becasue it doesn't touch system time anymore
+//  * can be run in parallel
+//
+// When run please ensure that the roboform.dll is in the current directory.
+// 
+// .\RoboFormWrapper.exe <start time> <stop time> <character mask> <character count> <min chars (always 1)>
+// .\RoboFormWrapper.exe 1372809601 1388534400 7 20 1
+//  That command will generate 20 character passwords between those two times using upper, lower, digit, but no specials.
+//
+// On command line, the character mask must be in decimal, not hex.
+// Bits are  upper, lower, digit, special, so uld=7 and ulds=15
+// 
+
 
 #include <stdio.h>
 #include <time.h>
