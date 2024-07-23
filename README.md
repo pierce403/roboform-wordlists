@@ -33,3 +33,7 @@ With these tweaks it appears we can generate wordlists several orders of magnitu
 
 # Wordlists to Generate
 The highest priority generation would be wordlists from the era where this bug was active, using default settings, and then using likely tweaks to the settings.
+
+# RoboFlayer
+Check out RoboFlayer for details on the brainwallet testing:
+https://github.com/pierce403/roboform-wordlists/tree/main/roboflayer
